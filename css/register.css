@@ -1,0 +1,10 @@
+fieldset {
+    width: 80%;
+    margin: auto;
+}
+input[type="radio"] {
+    width: 10%;
+}
+textarea {
+    background-color: rgba(109, 109, 110, 0.7);
+}

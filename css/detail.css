@@ -1,0 +1,148 @@
+:root {
+    --maunen: #141414;
+    --wchung: 92%;
+    --padchung: 0px 4%;
+    --heightheader: 68px;
+    --mauchu: #E5E5E5;
+    --font: Georgia, 'Times New Roman', Times, serif;
+    --fontnho: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+@media screen and (max-width: 768px) {
+    nav a {
+        display: none;
+    }
+    :first-child {
+        display: block;
+    }
+}
+* {
+    font-family: var(--font);
+    box-sizing: border-box;
+}
+h2 {
+    font-size: 1.5vw;
+    font-family: var(--font);
+    font-weight: 400;
+}
+body {
+    background-color: var(--maunen);
+    margin: 0;
+    color: var(--mauchu);
+}
+header {
+    width: 100%;
+    margin-top: 10px;
+    z-index: 1;
+}
+a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+#logo {
+    width: 8vw;
+    height: 4vw;
+    margin: 0px 4%;
+}
+#logo a {
+    width: 100%;
+    height: 100%;
+}
+nav, #bar {
+    display: flex;
+    flex-direction: row;
+    line-height: 4vw;
+    height: 4vw;
+}
+nav {
+    width: 60%;
+}
+#bar {
+    margin-left: 24vw;
+}
+nav a, span a {
+    margin: 0px 5px;
+    font-size: 1vw;z-index: ;
+    text-decoration: none;
+    color: var(--mauchu);
+    min-height: 4vw;
+}
+#user {
+    width: 6vw;
+    height: 3vw;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    background-image:linear-gradient(#141414, rgba(0, 0, 0, 0.5)),
+    url(../img/anhbia.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 50vw;
+}
+span i {
+    margin: 1.3vw 10px 0 0.5vw;
+}
+.gioithieu {
+    z-index: 2;
+    width: 30%;
+    margin: -44% 0px 0px 5%;
+}
+.gioithieu img {
+    width: 100%;
+    height: 100%;
+}
+div div {
+    font-family: var(--fontnho);
+    font-size: 1.2vw;
+    font-weight: lighter;
+}
+button {
+    width: 100%;
+    line-height: 20%;
+    border: none;
+    background-color: var(--mauchu);
+    font-size: 1.6vw;
+}
+button i {
+    font-size: 2vw;
+    height: 80%;
+    line-height: 80%;
+    margin: 0px;
+}
+.nut div {
+    background-color: var(--mauchu);
+    padding: 3%;
+    margin: 5% 3% 5% 0;
+    border-radius: 6px;
+}
+.nut div:last-child {
+    background-color: rgba(109, 109, 110, 0.7);
+    height: 100%;
+}
+.phims {
+    margin: 0 4%;
+}
+.main div {
+    background-color: var(--mauchu);
+    width: 16%;
+    color: var(--maunen);
+    background-size: cover;
+    min-height: 100px;
+    transition: transform 0.5s;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.main img {
+    width: 100%;
+    height: 100%;
+}
+.main div:hover {
+    transform: scale(2);
+}
